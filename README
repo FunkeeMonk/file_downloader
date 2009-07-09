@@ -1,0 +1,1 @@
+Quick and very dirty Python 3 script to download files linked to on a webpage.  Includes provisions to handle downloading only during certain times of the day, skipping header links, naive translation of escapes.
