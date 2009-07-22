@@ -77,6 +77,7 @@ while len(files_to_download) != 0:
 	else:
 		end_time = time.time()
 		shutil.move(DEST + destination + ".download", DEST + destination)
+		print("Download of ", destination, " complete.")
 
 	if average_time_to_download_file == 0:
 		average_time_to_download_file = (end_time - start_time) // 60
